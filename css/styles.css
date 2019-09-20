@@ -85,6 +85,26 @@ p{
   font-family: 'PT Sans', sans-serif;
 }
 
+h3 {
+	font-size: 30px;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: bold;
+	margin-top: 100px;
+}
+
+ul {
+	line-height: 30px;
+  margin-top: 10px;
+  font-size: 23px;
+  font-family: 'PT Sans', sans-serif;
+}
+
+ol{
+	line-height: 30px;
+  margin-top: 10px;
+  font-size: 23px;
+  font-family: 'PT Sans', sans-serif;
+}
 
 body{
   width: 700px;
