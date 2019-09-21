@@ -50,7 +50,7 @@ table {
 @import "@import url('https://fonts.googleapis.com/css?family=PT+Sans+Caption|PT+Sans+Narrow|PT+Sans:400,700&display=swap');";
 
 body {
-  background-image: url(../image/dc-online-media-mockup.jpg);
+  /* background-image: url(../image/dc-online-media-mockup.jpg); */
   background-size: 800px 20624px;
   background-position: top center;
   background-repeat: no-repeat;
@@ -60,46 +60,67 @@ h1{
    font-size: 40px;
    margin-top: 66px;
    font-weight: bold;
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'PT Sans Caption', sans-serif;
 }
 
 h2{
-    font-size: 35px;
-    font-family: 'PT Sans', sans-serif;
+    font-size: 36px;
+    font-family: 'PT Sans Caption', sans-serif;
     font-weight: bold;
-    margin-top: 100px;
+    margin-top: 43px;
 }
 
 h1 + p{
-  line-height: 30px;
+  line-height: 32px;
   margin-top: 10px;
-  font-size: 23px;
-  font-family: 'PT Sans', sans-serif;
+  font-size: 22px;
+  font-family: 'PT Sans Caption', sans-serif;
   opacity: 0.5;
 }
 
 p{
-  line-height: 30px;
+	width: 728px;
+  line-height: 32px;
   margin-top: 10px;
-  font-size: 23px;
+  font-size: 22px;
+  font-family: 'PT Sans', sans-serif;
+}
+
+#text {
+	line-height: 32px;
+  margin-top: 29px;
+  font-size: 22px;
   font-family: 'PT Sans', sans-serif;
 }
 
 h3 {
-	font-size: 30px;
-	font-family: 'PT Sans', sans-serif;
+	font-size: 32px;
+	font-family: 'PT Sans Caption', sans-serif;
 	font-weight: bold;
-	margin-top: 100px;
+	margin-top: 30px;
+}
+
+h4{
+	font-size: 28px;
+	font-family: 'PT Sans Caption', sans-serif;
+	font-weight: bold;
+	margin-top: 30px;
 }
 
 ul {
-	line-height: 30px;
+	list-style-type: disc;
+	line-height: 32px;
   margin-top: 10px;
   font-size: 23px;
   font-family: 'PT Sans', sans-serif;
 }
 
+li{
+	margin-top: 17px;
+}
+
 ol{
+	list-style-type: disc;
 	line-height: 30px;
   margin-top: 10px;
   font-size: 23px;
