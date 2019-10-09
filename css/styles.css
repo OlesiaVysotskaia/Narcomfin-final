@@ -9,7 +9,11 @@ body {
 
 }
 
-
+img {
+  display: block;
+  width: 1020px;
+  margin: 80px auto;
+}
 
 h1 {
    font-size: 40px;
@@ -44,6 +48,7 @@ p {
 #text {
 	line-height: 32px;
   margin-top: 29px;
+  margin-bottom: 50px;
   font-size: 22px;
   font-family: 'PT Sans', sans-serif;
 }
@@ -97,6 +102,11 @@ body{
 a:link {
   color: black
 }
+
+a:visited {
+  color: inherit;
+}
+
 
 blockquote {
 	position: relative;
