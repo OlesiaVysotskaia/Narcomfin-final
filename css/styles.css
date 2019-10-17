@@ -3,10 +3,45 @@
 
 body {
   /* background-image: url(../image/dc-online-media-mockup.jpg); */
-  background-size: 800px 20624px;
+  /* background-size: 800px 20624px;
   background-position: top center;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
 
+}
+
+nav {
+  width: 500px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+  opacity: 0.5;
+  transition: all 300ms ease;
+}
+
+nav:hover {
+  opacity: 1
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav {
+  position: fixed;
+  top: 50px;
+  left: 90px;
+  background-color: #fff;
+}
+
+/* nav ol li {
+font-weight: bold;
+} */
+
+nav > ul > li:first-child {
+font-weight: bold;
+}
+
+nav ul li ul {
+  margin-left: 20px;
+  opacity: 0.5;
 }
 
 img {
